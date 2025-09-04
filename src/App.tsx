@@ -11,10 +11,13 @@ export default function App() {
   const ordered = (me ? [me] : []).concat(others);
 
   return (
-    <main className="container">
-      <h1>Projeto React Cards</h1>
-      <p className="subtitle">
-        Lucas Leal Ferreira. Igor Projenio e Jonas Gabriel
+    <main className="container" >
+      <h1>Projeto React Cards </h1>
+      <p className="subtitle" >
+        Aluno: Lucas Leal Ferreira <br /><br />
+        Faculdade: Ceulp Ubra Palmas <br /><br />
+        Curso: Ciencia da Computação <br /><br />
+        Grupo: Igor Projenio e Jonas Gabriel
       </p>
 
       <section className="grid">
